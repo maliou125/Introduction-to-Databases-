@@ -1,0 +1,38 @@
+
+
+------ MongoDB Features ---------
+
+
+Document-oriented database
+Uses JSON-like documents for data storage
+Dynamic schema allows flexible data modeling
+Scalable, distributed architecture
+Support for high availability and horizontal scaling
+Slide 3: SQL (Relational Database) Features
+
+---------- SQL (Relational Database) Features ----------
+
+
+Relational database management system (RDBMS)
+Tabular data storage with rows and columns
+Structured schema with defined tables and relationships
+ACID (Atomicity, Consistency, Isolation, Durability) compliance for transactions
+Mature technology with well-established standards
+
+
+----------- Comparison: MongoDB vs. SQL ------------
+
+
+Data Model: MongoDB uses a document-oriented model,  ************   while SQL uses a relational model.
+
+
+Schema Flexibility: MongoDB offers dynamic schema, allowing flexible data modeling, ***********    while SQL has a structured schema with defined tables and relationships.
+
+
+Scalability: MongoDB is designed for horizontal scalability and distributed architecture,******** while SQL databases can scale vertically or horizontally but may require more effort for horizontal scaling.
+
+
+Transaction Support: MongoDB supports atomic operations within a single document but does not provide full ACID transaction support across multiple documents. ********* SQL databases offer ACID compliance for transactions.
+
+
+Use Cases: MongoDB is well-suited for applications requiring flexible schema and scalability, such as content management systems and real-time analytics. ***** SQL databases are often preferred for applications with complex relationships and transactional integrity, such as financial systems and e-commerce platforms.
